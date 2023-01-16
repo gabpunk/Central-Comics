@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Italiana&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css/">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="icon" href="./IMG/CENTRAL COMICS (1).png">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="./css/páginaprincipal.css">
+
+
+            <title>Central Comics</title>
+    </head>
+    <div class="header">
+        <!----- Navegador Principal ----->
+    <nav class="main-nav">
+        <img class="logo" src="./IMG/CENTRAL COMICS (1).png" alt="Central Comics">
+            <ul>
+                <li><a href="./index.html">Página Inicial</a></li>
+                <li><a href="./pages/marvel.html">Marvel</a></li>
+                <li><a href="./pages/dc.html"> DC </a></li>
+                <h1>Central Comics </h1>
+                <li><a href="./pages/image.html"> Image </a></li>
+                <li><a href="./pages/testelogin.html"> Login </a></li>
+            </ul>
+           
+    </nav> 
+    </div>
+  
+    <body>
+    <div class="app">
+        <div class="cardList">
+          <button class="cardList__btn btn btn--left">
+            <div class="icon">  <!--Seta da rotação-->
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </button>
+          <!---Imagens da Rotação-->
+          <div class="cards__wrapper">
+            <div class="card current--card">
+              <div class="card__image">
+                <img src="./IMG/hqimage1.jpg" alt="" />
+              </div>
+            </div>
+      
+            <div class="card next--card">
+              <div class="card__image">
+                <img src="./IMG/hq2.jpg" alt="" />
+              </div>
+            </div>
+      
+            <div class="card previous--card">
+              <div class="card__image">
+                <img src="./IMG/hq1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+            <!--Seta da rotação-->
+          <button class="cardList__btn btn btn--right">
+            <div class="icon">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </button>
+        </div>
+      <!----Rotação dos quadrinhos-->
+        <div class="infoList">
+          <div class="info__wrapper">
+            <div class="info current--info">
+              <h1 class="text name">Nightworld</h1>
+              <h4 class="text location">Image Comics</h4>
+            
+            </div>
+      
+            <div class="info next--info">
+              <h1 class="text name">Crisis on <br> Infinite Earths</h1>
+              <h4 class="text location">DC Comics</h4>
+            </div>
+      
+            <div class="info previous--info">
+              <h1 class="text name">Homem Aranha: <br>A última caçada de Kraven</h1>
+              <h4 class="text location">Marvel Comics</h4>
+              
+            </div>
+          </div>
+        </div>
+      
+      
+        <div class="app__bg"> <!---Suposto BackGround da Página que Não deu certo-->
+          <div class="app__bg__image current--image">
+            <img src="./IMG/hqimage1.jpg" alt="" />
+          </div>
+          <div class="app__bg__image next--image">
+            <img src="./IMG/hq2.jpg" alt="" />
+          </div>
+          <div class="app__bg__image previous--image">
+            <img src="./IMG/hqimage3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+          <span></span>
+        </div>
+      </div>
+      
+
+      
+      <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+
+      <script type="text/javascript" src="./JAVA/script.js"></script>
+<div class="BordaPagina">
+      <div class="Propaganda">
+        
+        <img src="./IMG/homemaranha.jpg">
+        <h2>The Amazing Spider-Man</h2>
+        <h3>Vol. 1: Back to Basics</h3>
+        </div>
+         
+ <div class="intro">
+
+      </div>
+
+      <div class="HQS">
+        <img src="./IMG/conjuntodequadrinhos.png">
+      </div>
+
+      <div class="heroes">
+    <h6>SEUS SUPER-HERÓIS FAVORITOS</h6>
+      </div>
+    
+        <div class="perso">
+         <img src="./IMG/teste (2).png">
+      </div>
+
+  <div class="quadrinhos">
+    <h1>-- Coleção mais vendidos! --</h1>
+     <!---Seção de quadrinhos MARVEL-->
+     <h2> - Marvel </h2>
+     
+     <section class="main-container" >
+       <div class="hqmarvel">
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel.jpg">
+         </a>
+
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel1.jpg">
+         </a>
+
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel2.jpg">
+         </a>
+
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel3.jpg">
+         </a>
+
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel5.jpg">
+         </a>
+
+         <a href="./pages/marvel.html"> 
+           <img src="./IMG/carroselmarvel6.jpg">
+         </a>
+       </div>
+     </div>
+       
+        
+   
+     <div class="descrição1marvel">
+     <b>Origins of Marvel Comics:  Marvel Tales (2022) <br>
+     </b>
+      </div>
+
+    
+     <div class="descrição2marvel">
+     <b> Ultimate Comics Spider-Man: Facsimile Edition (2022) <br>
+     </b>
+      </div>
+     
+ 
+     <div class="descrição3marvel">
+     <b>Dark Web: X-Men (2022) #1<br>
+     </b>
+      </div>
+
+  
+     <div class="descrição4marvel">
+     <b>
+       Star Wars: Bounty Hunters (2020) <br>
+     </b>
+      </div>
+     
+   
+     <div class="descrição5marvel">
+     <b>
+       Monica Rambeau: Photon (2022) <br>
+     </b>
+      </div>
+     
+  
+     <div class="descrição6marvel">
+     <b>
+       Savage Avengers (2022)  <br>
+     </b>
+      </div>
+
+ <!---Seção de quadrinhos MARVEL-->
+
+ <!---Seção de quadrinhos DC-->
+ <div class="dctitulo">
+   <h2> - DC </h2>
+ </div>
+
+ <div class="hqdc">
+   <a href="#"> 
+     <img src="./IMG/carroseldc.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroseldc1.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroseldc2.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroseldc3.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroseldc4.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroseldc5.jpg">
+   </a>
+ </div>
+ 
+ <div class="descrição1dc">
+   <b>Batman #130<br>
+   </b>
+    </div>
+  
+ 
+   <div class="descrição2dc">
+   <b> Batman And The Joker: The Deadly Duo #1 <br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição3dc">
+   <b>Batman: Knightwatch<br>
+   </b>
+    </div>
+
+   
+   <div class="descrição4dc">
+   <b>
+     Batman: Arkham Asylum <br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição5dc">
+   <b>
+     Batman: Shadows of the Bat: House of Gotham <br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição6dc">
+   <b>
+     Detective Comics  <br>
+   </b>
+    </div>
+
+
+     <!---Seção de quadrinhos IMAGE-->
+ <div class="imagetitulo">
+   <h2> - IMAGE </h2>
+ </div>
+
+ <div class="hqimage">
+   <a href="#"> 
+     <img src="./IMG/carroselimage.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroselimage1.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroselimage2.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroselimage37.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroselimage3.jpg">
+   </a>
+
+   <a href="./pages/marvel.html"> 
+     <img src="./IMG/carroselimage4.jpg">
+   </a>
+ </div>
+ 
+ <div class="descrição1image">
+   <b>Friday Book Two: On A Cold Winter's Night <br>
+   </b>
+    </div>
+  
+ 
+   <div class="descrição2image">
+   <b> Spawn Compendium, Volume 4 <br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição3image">
+   <b>Primordial #3
+   </b>
+    </div>
+
+   
+   <div class="descrição4image">
+   <b>
+     Spawn #338<br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição5image">
+   <b>
+   Killdelplhia Deluxe Edition<br>
+   </b>
+    </div>
+   
+   
+   <div class="descrição6image">
+   <b>
+     Radiant Black<br>
+   </b>
+    </div>
+
+
+ <!---Rodapé-->
+
+ <footer>
+   <div class="texto">
+     <h1> Central Comics</h1>
+   <img src="./IMG/CENTRAL COMICS (1).png"> 
+   </div>
+   
+   
+     <div class="social-media">
+         <h3>Nos Acompanhe</h3>
+         <div class="footer-social-icon">
+               <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+               <a href="https://twitter.com/"><i class="fab fa-twitter twitter-bg"></i></a>
+              <a href="https://www.google.com/intl/pt-BR/gmail/about/"><i class="fab fa-google-plus-g google-bg"></i></a>
+         </div>
+       </div>
+         <ul>
+           <div class="footer-widget">
+             <div class="footer-widget-heading">
+               <h3>Acesso Rápido </h3>
+                    <ul>
+                      <li><a href="./index.html">Página Inicial</a></li>
+                      <li><a href="./pages/marvel.html">Marvel</a></li>
+                      <li><a href="./pages/dc.html"> DC </a></li>
+                      <li><a href="./pages/image.html"> Image </a></li>
+                      <li><a href="./pages/testelogin.html"> Login </a></li>
+                  </ul>
+            </div>
+          </div>
+         <div class="texto">
+          <p>
+            A Central Comics é uma loja digital focada em revistas em quadrinhos,
+            focada sempre nos maiores lançamentos, com a melhor qualidade e os melhores preços.
+          </p>
+         </div>
+</footer>
+</div>  <!--Div para a borda da página -->
+</body>
+</html>

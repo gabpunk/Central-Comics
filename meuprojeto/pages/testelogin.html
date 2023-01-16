@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Central Comics</title>
+        <link rel="icon" href="../IMG/CENTRAL COMICS (1).png">
+    <style>    
+        body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Italiana', serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url("../IMG/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 35%;
+  align-items: center;
+}
+
+.fundo-login {
+  background-image: url("../IMG/backgroundlogin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  border: 15px solid silver;
+  opacity: 1;
+  padding: 50px;
+  margin: 20pxS
+}
+    </style>
+    </head>
+    <body>
+    <div class = "center">   
+       <div class = "vertical-center">
+            <div class = "fundo-login">
+                <form id="register-form"> 
+                    <input id="name" type="text" placeholder="Defina um Nome de usuário" value=""/>
+                    <input id="pw" type="password" placeholder="Defina uma senha" value=""/>
+                    <input id="rgstr_btn" type="submit" value="Registrar-se" onClick="store()"/> 
+                </form>
+
+                <form id="login-form"> 
+                    <input id="userName" type="text" placeholder="Nome de usuário" value=""/>
+                    <input id="userPw" type="password" placeholder="Senha" value=""/>
+                    <input id="login_btn" type="submit" value="Entrar" onClick="check()"/> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript" src="testelogin.js"></script>
+
+    
+    </body>
+</html>
